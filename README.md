@@ -22,6 +22,8 @@ This gem provides a command line tool to launch Beacon from the command line.
 
 Simply type `beacon` at the prompt.
 
+**Currently this functionality is only supported on Mac OS X.**
+
 ## Contributing
 
 1. Fork it
