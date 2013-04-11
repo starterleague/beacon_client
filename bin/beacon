@@ -2,4 +2,6 @@
 
 hostname = `hostname`
 
-`open http://beacon.dev?hostname=#{hostname}`
+url = ENV['BEACON_URL'] || 'http://beaconapp.herokuapp.com'
+
+`open #{url}?hostname=#{hostname}`
